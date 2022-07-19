@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+
+
+.Title{
+    position: relative;
+    height: 55px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+
+
+.Title #UnVerano{
+    color: #E21808;  
+} 
+
+
+img{
+    max-width: 276px;
+    height: 276px;
+    margin-top: 20%;
+    top: 30%;
+
+
+}
+
+.container a{
+    padding: 15px 100px;
+    font-size: 24px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FBBC7A 0%, #F7BFB5 51%, #AAD8EB 100%);
+    font-weight: 700;
+    font-family: 'Manrope';
+    border: none;
+    top: 50px;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    right: auto;
+
+
+}
+
+.container section{
+    min-width: 60%;
+    min-height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+    height: auto;
+
+
+    justify-content: left;
+    align-items: center;
+    background: #FBBC7A;
+
+}
+
+.container section:nth-child(2){
+    background: #FBBC7A;
+}
+
