@@ -49,6 +49,7 @@ img{
     font-family: 'Manrope';
     border: none;
     top: 50px;
+    display: block;
 }
 
 
@@ -79,4 +80,42 @@ img{
 .container section:nth-child(2){
     background: #FBBC7A;
 }
+
+.answers{
+    min-height: 100%;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+}
+
+.answers a{
+    background: #E5E5E5;
+    height: 100%;
+    width: 90%;
+    color: #000000;
+    text-align: left;
+}
+
+ul{
+    min-height: 100%;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    
+}
+li{
+    height: 100%;
+    width: 90%;
+    min-width: 200px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
 
