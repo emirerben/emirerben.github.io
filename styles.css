@@ -1,3 +1,12 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -30,14 +39,12 @@
 img{
     max-width: 276px;
     height: 276px;
-    margin-top: 20%;
-    top: 30%;
-
+    margin-top: 15%;
 
 }
 
 .container a{
-    padding: 15px 100px;
+    padding: 15px 35px;
     font-size: 24px;
     background: black;
     color: white;
@@ -50,6 +57,7 @@ img{
     border: none;
     top: 50px;
     display: block;
+
 }
 
 
@@ -66,37 +74,51 @@ img{
 .container section{
     min-width: 60%;
     min-height: 100%;
-    margin-top: 10%;
-    margin-left: 20%;
+    margin-top: 80px;
+    margin-bottom: auto;
+    margin-left: 10%;
     height: auto;
 
 
     justify-content: left;
     align-items: center;
-    background: #FBBC7A;
 
 }
 
+.container section:nth-child(1){
+    margin-left: 40%;
+    margin-top: 60px;
+    
+}
+
 .container section:nth-child(2){
-    background: #FBBC7A;
+
 }
 
 .answers{
     min-height: 100%;
     margin-bottom: 90px;
     justify-content: space-between;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     align-items: center;
     text-align: left;
+    margin-top: 40px;
+
+}
+
+.answers a:hover {
+    background-color: orange;
+    color: white;
+
 }
 
 .answers a{
     background: #E5E5E5;
     height: 100%;
-    width: 90%;
     color: #000000;
-    text-align: left;
+    transition-duration: 0.2s;
+
 }
 
 ul{
@@ -107,15 +129,20 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
+
     
 }
 li{
     height: 100%;
-    width: 90%;
+    width: 70%;
     min-width: 200px;
     margin-bottom: 20px;
     font-weight: 600;
 }
 
-
+#vamos{
+    width: 276px;
+    text-align: center;
+    margin-top: 70px;
+}
 
