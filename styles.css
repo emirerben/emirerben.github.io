@@ -1,7 +1,5 @@
 html, body{
     scroll-behavior: smooth;
-
-    
 }
 
 @keyframes transitionIn {
@@ -87,11 +85,9 @@ html, body{
 
 
 img{
-    width: 350px;
-    min-width: 35%;
+    max-width: 35%;
     height: auto;
     margin-top: 4%;
-    flex-shrink: 0;
 
 }
 
