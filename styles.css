@@ -132,10 +132,6 @@ img{
     
 }
 
-.container section:nth-child(2){
-
-}
-
 .answers{
     min-height: 100%;
     margin-bottom: 90px;
@@ -217,12 +213,14 @@ iframe{
     transform: translate(-50%, -50%);
     color: white;
     animation: transitionInSong 16s;
+    cursor: pointer;
 
 }
 
 #share:hover{
     box-shadow: 0px 0px 8px #D4D3D3;
     transition-duration: 0.2s;
+
     
 }
 
