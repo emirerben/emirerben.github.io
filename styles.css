@@ -61,7 +61,7 @@ html, body{
 
     position: relative;
     height: 55px;
-    margin-top: 10%;
+    margin-top: 80px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -73,8 +73,8 @@ html, body{
 }
 
 .MainTitle{
-    margin-top: 10%;
-    font-size:calc(12px + 0.5vw);
+    margin-top: 50px;
+    font-size:calc(20px + 0.5vw);
 
 }
 
@@ -87,8 +87,10 @@ html, body{
 img{
     max-width: 35%;
     height: auto;
-    margin-top: 4%;
+    margin-top: calc(60px - 2vw);
 
+    min-width: 300px;
+    
 }
 
 .container a{
@@ -132,7 +134,7 @@ img{
 }
 
 .container section:nth-child(1){
-    margin-left: 40%;
+    margin-left: 30%;
 
     
 }
@@ -191,7 +193,7 @@ li{
 
     margin-right: 60%;
     min-width: max-content;
-    margin-top: 8%;
+    margin-top: 40px;
 
     
 }
