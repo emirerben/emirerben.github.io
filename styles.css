@@ -1,5 +1,7 @@
 html, body{
     scroll-behavior: smooth;
+
+    
 }
 
 @keyframes transitionIn {
@@ -58,47 +60,53 @@ html, body{
 
 
 .Title{
+
     position: relative;
     height: 55px;
-
+    margin-top: 10%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size:calc(12px + 0.5vw);
 
     /* identical to box height */
 
     color: #000000;
 }
 
+.MainTitle{
+    margin-top: 10%;
+    font-size:calc(12px + 0.5vw);
 
-.Title #UnVerano{
+}
+
+
+.MainTitle #UnVerano{
     color: #E21808;  
 } 
 
 
 img{
-    max-width: 276px;
-    height: 276px;
-    margin-top: 15%;
-
+    max-width: 35%;
+    height: auto;
+    margin-top: 4%;
 }
 
 .container a{
     padding: 15px 35px;
-    font-size: 24px;
+
     background: black;
     color: white;
     cursor: pointer;
     border-radius: 20px;
     text-decoration: none;
-    background-image: linear-gradient(to right, #FBBC7A 0%, #F7BFB5 51%, #AAD8EB 100%);
+    /*background-image: linear-gradient(to right, #FBBC7A 0%, #F7BFB5 51%, #AAD8EB 100%);*/
     font-weight: 700;
     font-family: 'Manrope';
     border: none;
-    top: 50px;
-    display: block;
 
+    display: block;
+    
 }
 
 
@@ -109,15 +117,13 @@ img{
     display: flex;
     right: auto;
 
-
 }
 
 .container section{
     min-width: 60%;
     min-height: 100%;
-    margin-top: 80px;
     margin-bottom: auto;
-    margin-left: 10%;
+    margin-left: 20%;
     height: auto;
 
 
@@ -128,7 +134,7 @@ img{
 
 .container section:nth-child(1){
     margin-left: 40%;
-    margin-top: 60px;
+
     
 }
 
@@ -141,6 +147,7 @@ img{
     align-items: center;
     text-align: left;
     margin-top: 40px;
+    
 
 }
 
@@ -155,12 +162,12 @@ img{
     height: 100%;
     color: #000000;
     transition-duration: 0.2s;
-
+    font-size: 100%;
 }
 
 ul{
     min-height: 100%;
-    margin-bottom: 90px;
+
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -178,9 +185,15 @@ li{
 }
 
 #vamos{
-    width: 276px;
+    max-width: 276px;
     text-align: center;
     margin-top: 70px;
+    font-size:calc(12px + 0.5vw);
+
+    margin-right: 60%;
+    min-width: max-content;
+    margin-top: 8%;
+
     
 }
 
