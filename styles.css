@@ -74,7 +74,7 @@ html, body{
 
 .MainTitle{
     margin-top: 50px;
-    font-size:calc(18px + 0.5vw);
+    font-size:calc(16px + 0.5vw);
 
 }
 
@@ -134,7 +134,7 @@ img{
 }
 
 .container section:nth-child(1){
-    margin-left: calc(45% - 100px);
+    margin-left: calc(45% - 110px);
 
     
 }
@@ -188,12 +188,11 @@ li{
 #vamos{
     max-width: 276px;
     text-align: center;
-    margin-top: 70px;
     font-size:calc(12px + 0.5vw);
 
     margin-right: 60%;
     min-width: max-content;
-    margin-top: 40px;
+    margin-top: 30px;
 
     
 }
