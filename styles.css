@@ -87,9 +87,12 @@ html, body{
 
 
 img{
-    max-width: 35%;
+    width: 276px;
+    min-width: 35%;
     height: auto;
     margin-top: 4%;
+    flex-shrink: 0;
+
 }
 
 .container a{
