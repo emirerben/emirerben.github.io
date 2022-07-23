@@ -2,6 +2,47 @@ html, body{
     scroll-behavior: smooth;
 }
 
+@keyframes transitionIn {
+    from{
+        background-color: white;
+        opacity: 0;
+    }
+
+    to{
+        background-color: black;
+        opacity: 1;
+    }
+}
+
+@keyframes transitionInText {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes transitionInSong {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .example::-webkit-scrollbar {
     display: none;
 }
@@ -144,5 +185,52 @@ li{
     width: 276px;
     text-align: center;
     margin-top: 70px;
+    
 }
 
+
+iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.recommend{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#share{
+    width: 50px;
+    height: 50px;
+    background: #25D366;
+    border-radius: 100%;
+    border-color: transparent;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    animation: transitionInSong 16s;
+
+}
+
+#share:hover{
+    box-shadow: 0px 0px 8px #D4D3D3;
+    transition-duration: 0.2s;
+    
+}
+
+#share img{
+    width: 25px;
+    height: 25px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

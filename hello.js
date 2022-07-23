@@ -15,7 +15,7 @@ button.onclick = function(){
 
 //Makes all buttons clickable, but doesn't remove past answer if another option is chosen
 
-const listofquestions = ['#q1-answers a', '#q2-answers a'];
+const listofquestions = ['#q1-answers a', '#q2-answers a', '#q3-answers a'];
 for(let question = 0; question < listofquestions.length; question++){
     const buttons = document.querySelectorAll(listofquestions[question]);
     let clickedButton = -1;
@@ -108,3 +108,8 @@ document.querySelector('#vamos').onclick = function() {
 }
 
 
+
+function shareMessage(){
+    let message = 'Want to learn which Un Verano Sin Ti song you are? I got Party!!!';
+    window.open('whatsapp://send?text=' + message);
+}
