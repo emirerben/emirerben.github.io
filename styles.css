@@ -124,7 +124,7 @@ img{
     min-width: 60%;
     min-height: 100%;
     margin-bottom: auto;
-    margin-left: 20%;
+    margin-left: calc(200px + 10%);
     height: auto;
 
 
