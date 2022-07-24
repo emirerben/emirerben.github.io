@@ -113,3 +113,15 @@ function shareMessage(){
     let message = 'Want to learn which Un Verano Sin Ti song you are? I got Party!!!';
     window.open('whatsapp://send?text=' + message);
 }
+
+
+/*
+var button = document.getElementById('vamos');
+button.onclick = function () {
+    document.getElementById('cont').scrollLeft += 1300; // for right scroll
+    console.log("anan");
+    behavior: 'smooth';
+    
+};
+
+*/

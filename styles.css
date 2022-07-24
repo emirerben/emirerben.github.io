@@ -85,7 +85,7 @@ html, body{
 
 
 img{
-    max-width: 35%;
+    max-width: 25%;
     height: auto;
     margin-top: calc(60px - 2vw);
 
@@ -117,26 +117,21 @@ img{
     height: auto;
     display: flex;
     right: auto;
-
 }
 
 .container section{
-    min-width: 60%;
+    min-width: 100%;
+    /*padding-left: calc(30px + 5%);*/
+    padding-left: calc(20vw - 10%);
     min-height: 100%;
     margin-bottom: auto;
-    margin-left: calc(200px + 10%);
+    /*margin-left: calc(100px + 10%);*/
     height: auto;
-
-
-    justify-content: left;
-    align-items: center;
 
 }
 
 .container section:nth-child(1){
-    margin-left: calc(45% - 110px);
-
-    
+    padding-left: 10%;
 }
 
 .answers{
@@ -148,6 +143,7 @@ img{
     align-items: center;
     text-align: left;
     margin-top: 40px;
+    scroll-margin-right: 100px;
     
 
 }
@@ -180,7 +176,7 @@ ul{
 li{
     height: 100%;
     width: 70%;
-    min-width: 200px;
+    min-width: 350px;
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -245,3 +241,4 @@ iframe{
     margin-right: auto;
     
 }
+
