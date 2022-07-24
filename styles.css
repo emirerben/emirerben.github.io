@@ -196,7 +196,7 @@ li{
 
 iframe{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -204,25 +204,31 @@ iframe{
 
 .recommend{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 #share{
-    width: 50px;
-    height: 50px;
+    max-width: 300px;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-height: 70px;
     background: #25D366;
-    border-radius: 100%;
+    border-radius: 20px;
     border-color: transparent;
     position: absolute;
-    top: 85%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     animation: transitionInSong 16s;
     cursor: pointer;
+    font-size:calc(16px + 0.5vw);
+    min-width: 230px;
+    min-height: 55px;
 
 }
 
@@ -233,12 +239,12 @@ iframe{
     
 }
 
-#share img{
+/*#share img{
     width: 25px;
     height: 25px;
     overflow:hidden;
     margin-left: auto;
     margin-right: auto;
-    
-}
+    position: absolute;
+}*/
 
