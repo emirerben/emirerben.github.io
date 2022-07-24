@@ -211,11 +211,8 @@ iframe{
 }
 
 #share{
-    max-width: 300px;
-    width: auto;
     padding-right: 20px;
     padding-left: 20px;
-    max-height: 70px;
     background: #25D366;
     border-radius: 20px;
     border-color: transparent;
@@ -226,9 +223,9 @@ iframe{
     color: white;
     animation: transitionInSong 16s;
     cursor: pointer;
-    font-size:calc(16px + 0.5vw);
-    min-width: 230px;
-    min-height: 55px;
+    font-size:calc(26px + 0.5vw);
+    min-width: 430px;
+    min-height: 90px;
 
 }
 
